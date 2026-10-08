@@ -17,7 +17,7 @@ const BoardRow = ({data, idx}:BoardRowType) => {
                 <span className="lang">{lang}</span>
             </div>
             <div className="score">{score}</div>
-            <div className="bugs">{bugs}x 🐛</div>
+            <div className="bugs">{bugs}x🐛</div>
         </div>
     )
 }
