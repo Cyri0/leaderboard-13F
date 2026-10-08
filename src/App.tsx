@@ -1,8 +1,10 @@
 import BoardHead from "./BoardHead"
 import BoardRow from "./BoardRow"
-import { players } from "./players"
+import { playerStore } from "./playerStore"
 
 const App = () => {
+
+  const players = playerStore((state) => state.players)
 
   return (
     <>
