@@ -149,6 +149,12 @@ header {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--cyan);
+  user-select: none;
+}
+
+.board-head .cell:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .board-head .cell:nth-child(4) {
